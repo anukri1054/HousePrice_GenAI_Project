@@ -1,0 +1,11 @@
+.streamlit/secrets.toml
+
+**pycache**/
+
+*.pkl
+
+.env
+
+venv/
+
+.venv/

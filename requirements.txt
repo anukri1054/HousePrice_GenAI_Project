@@ -1,8 +1,8 @@
-streamlit
 pandas
 numpy
 scikit-learn
-joblib
 matplotlib
 seaborn
+streamlit
+joblib
 google-generativeai
