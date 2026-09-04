@@ -1,15 +1,13 @@
 import os
 
+# Base directory of the project
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_DIR = os.path.join(BASE_DIR, "models")
+# Model path
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.pkl")
 
-OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
+# Feature names path
+FEATURE_NAMES_PATH = os.path.join(BASE_DIR, "feature_names.pkl")
 
-MODEL_PATH = os.path.join(MODEL_DIR, "best_model.pkl")
-
-FEATURE_PATH = os.path.join(MODEL_DIR, "feature_names.pkl")
-
-RANDOM_STATE = 42
-
-TEST_SIZE = 0.20
+# Output directory
+OUTPUT_DIR = BASE_DIR
